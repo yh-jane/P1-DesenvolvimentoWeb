@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Recomendações de Filmes</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			background-color: #f8f8f8;
+			margin: 0;
+			padding: 0;
+		}
+
+		h1 {
+			font-size: 2em;
+			text-align: center;
+			margin: 1em 0;
+		}
+
+		.filme {
+			background-color: #fff;
+			border: 1px solid #ccc;
+			border-radius: 5px;
+			margin: 1em;
+			padding: 1em;
+			box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+		}
+
+		h2 {
+			font-size: 1.5em;
+			margin-top: 0;
+		}
+
+		img {
+			max-width: 100%;
+			height: auto;
+			margin-bottom: 1em;
+			box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+		}
+
+		p {
+			margin-top: 0;
+		}
+
+		.lista-info {
+			margin: 0;
+			padding: 0;
+			list-style: none;
+		}
+
+		.lista-info li {
+			margin-bottom: 0.5em;
+		}
+
+		.lista-info strong {
+			display: inline-block;
+			width: 8em;
+		}
+	</style>
+</head>
+<body>
+	<h1>Recomendações de Filmes</h1>
+
+	<div class="filme">
+		<h2>O Poderoso Chefão</h2>
+		<img src="https://upload.wikimedia.org/wikipedia/pt/2/2d/The_Godfather.jpg" alt="O Poderoso Chefão">
+		<p>Uma obra-prima da sétima arte, dirigida por Francis Ford Coppola e estrelada por Marlon Brando, Al Pacino e James Caan. A história da família Corleone é um clássico absoluto do cinema.</p>
+		<ul class="lista-info">
+			<li><strong>Ano:</strong> 1972</li>
+			<li><strong>Diretor:</strong> Francis Ford Coppola</li>
+		
